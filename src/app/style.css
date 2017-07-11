@@ -15,8 +15,16 @@ p {
   line-height: 2rem;
 }
 
+.front{
+  z-index: 3;
+}
+
 .button-collapse {
   color: #26a69a;
+}
+
+.blur{
+  -webkit-filter: blur(20px);
 }
 
 .parallax-container {
